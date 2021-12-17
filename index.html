@@ -19,15 +19,15 @@
 
   <body>
     <header>
-      <div class="logo">ThinkfulCupid</div>
-      <nav>
-        <ul id="menu">
-          <li><a>Join</a></li>
-          <li><a>About</a></li>
-          <li><a>Download</a></li>
-          <li><a>Blog</a></li>
-        </ul>
-      </nav>
+        <div class="logo">ThinkfulCupid</div>
+        <nav>
+          <ul id="menu">
+            <li><a>Join</a></li>
+            <li><a>About</a></li>
+            <li><a>Download</a></li>
+            <li><a>Blog</a></li>
+          </ul>
+        </nav>  
     </header>
 
     <main>
@@ -35,6 +35,40 @@
       <section id="join">
         <img src="images/love.png" alt="ThinkfulCupid - love" />
         <!-- Add join form here -->
+        
+        <h1>Find Your Perfect Match</h1>
+        
+        <form >
+            <div>
+              <label for="email">Email </label>
+              <input 
+                id="email" 
+                type="text" 
+                name="email"
+                autofocus="on" 
+                placeholder="email@example.com"
+                required
+                />
+            </div>
+            <div>
+              <label for="password">Create a Password </label>
+              <input
+                id="password"
+                type="password"
+                name="password"
+                maxlength="8"
+              />
+            </div>
+            <label for="Username">Username </label>
+              <input 
+                id="username" 
+                type="text" 
+                name="username"
+                maxlength="8"
+                required
+                />
+            </div>
+        </form>
       </section>
 
       <!-- About -->
